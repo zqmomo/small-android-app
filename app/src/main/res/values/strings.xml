@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FB</string>
+    <string name="grzx_fkxx">建议与反馈</string>
+    <!-- 主页-->
+    <string name="tab_one">首页</string>
+    <string name="tab_two">交易快讯</string>
+    <string name="tab_three">我的交易</string>
+    <string name="tab_four">个人中心</string>
+
+    <string name="aap_new">New</string>
+
+    <string name="app_wdtx">我的头像</string>
+
+    <!--    交易类型-->
+    <string name="jylx_sdtf">深度调峰</string>
+    <string name="jylx_qttf">启停调峰</string>
+    <string name="jylx_xbtf">旋备调峰</string>
+    <string name="jylx_jjtf">紧急调峰</string>
+  
+<!--    交易快讯-->
+    <string name="jykx_scqk">市场开启情况</string>
+    <string name="jykx_sccq">市场出清信息</string>
+    <string name="jykx_sctz">市场通知信息</string>
+    <string name="jykx_scgz">市场规则</string>
+<!--    市场通知-->
+    <string name="sctz_sctz">市场通知</string>
+    <string name="sctz_gztz">规则调整</string>
+    <string name="sctz_xyqk">信用通报</string>
+    <string name="sctz_scgz">市场规则</string>
+
+<!--    我的交易-->
+    <string name="wdjy_zbqk">中标情况</string>
+    <string name="wdjy_jylx">交易类型</string>
+    <string name="wdjy_jyqk">交易情况</string>
+    <string name="wdjy_jzsb">机组申报情况：</string>
+    <string name="wdjy_scpx">市场排序情况：</string>
+    <string name="wdjy_jyjs">交易结算情况：</string>
+    
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/border_margin"
+        android:layout_marginEnd="@dimen/border_margin"
+        android:clickable="false"
+        android:drawablePadding="@dimen/border_margin"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:textIsSelectable="false"
+        android:textColor="#000"
+        android:text="系统消息"/>
+    <!--src 是图片源源-->
+    <!--drawableStart ye是图片源源-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="@dimen/border_margin"
+        android:clickable="false"
+        android:focusable="false"
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        tools:ignore="ContentDescription"/>
+</FrameLayout>

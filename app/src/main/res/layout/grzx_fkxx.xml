@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="@dimen/border_margin"
+        android:gravity="start|center"
+        android:text="@string/grzx_fkxx"
+        android:textColor="@android:color/holo_red_light"
+        />
+    <EditText
+        android:id="@+id/fkxx_text"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginEnd="@dimen/border_margin"
+        android:layout_marginStart="@dimen/border_margin"
+        android:layout_marginTop="16dp"
+        android:hint="(50字以内)"
+        android:maxLines="5"
+        android:maxLength="100"
+        android:gravity="top"
+        android:background="@drawable/textstyle" />
+
+    <TextView
+        android:id="@+id/publish_text_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/border_margin"
+        android:layout_marginBottom="10dp"
+        android:text="0/50"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/border_margin"
+        android:layout_gravity="center"
+        android:text="提交" />
+</LinearLayout>

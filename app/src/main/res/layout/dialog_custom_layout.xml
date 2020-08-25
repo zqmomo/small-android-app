@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFDFDF">
+
+    <TextView
+        android:id="@+id/tc_tcdl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="退出登录"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_dark"
+        android:background="#fff"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/tc_gbcx"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="关闭程序"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/tc_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:layout_marginTop="@dimen/border_margin"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:background="#fff"/>
+
+</LinearLayout>

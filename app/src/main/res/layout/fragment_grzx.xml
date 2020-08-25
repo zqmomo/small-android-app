@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFDFDF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/border_margin"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/border_margin"
+                android:contentDescription="@string/app_wdtx"
+                android:src="@drawable/grzx_dctb" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/border_margin"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/grzx_wdnc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/border_margin"
+                    android:padding="@dimen/border_margin"
+                    android:text="XX电厂"
+                    android:textSize="20sp"
+                    android:textColor="#000"/>
+                <FrameLayout
+                    android:id="@+id/grzx_xxxg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/border_margin"
+                        android:text="欢迎您"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="56dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:src="@drawable/ic_chevron_right_black_24dp" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            android:id="@+id/grzx_dcbd"
+            android:layout_marginTop="@dimen/border_margin"
+            android:layout_height="60dp"
+            layout="@layout/item_img_dcbd_right"
+            android:layout_width="match_parent" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:padding="@dimen/border_margin"
+            android:background="@android:color/darker_gray"/>
+        <include
+            android:id="@+id/grzx_tjjz"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            layout="@layout/item_img_tjjz_right"/>
+        <include
+            android:id="@+id/grzx_xtxx"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/border_margin"
+            layout="@layout/item_img_xtxx_right"/>
+        <include
+            android:id="@+id/grzx_fkxx"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/border_margin"
+            layout="@layout/item_img_fkxx_right"
+            />
+        <TextView
+            android:id="@+id/grzx_qhzh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/border_margin"
+            android:background="@android:color/white"
+            android:text="切换账号"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/grzx_tc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/border_margin"
+            android:background="@android:color/white"
+            android:text="退出"
+            android:textColor="#000"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
